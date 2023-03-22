@@ -69,15 +69,7 @@ const SideBar = () => {
       <div className="nav__bottom">
         <DarkMode open={open} />
         <div className="nav">
-          <a href='https://www.buymeacoffee.com/eyuel' rel="noreferrer" target='_blank' className="nav__item">
-            <div className="nav__icons">
-              <MdOutlineCoffee />
-            </div>
-            <h1 className={`${!open && "hidden"}`}>Support this project</h1>
-          </a>
-        </div>
-        <div className="nav">
-          <a href='https://github.com/EyuCoder/chatgpt-clone' className="nav__item">
+          <a href='https://github.com/alilibx/zzopenchat' className="nav__item">
             <div className="nav__icons">
               <MdOutlineQuestionAnswer />
             </div>

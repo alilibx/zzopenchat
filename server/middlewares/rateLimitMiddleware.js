@@ -9,11 +9,9 @@ try {
   process.exit(1)
 }
 
-const client = new Redis({
-  host: process.env.REDIS_URL || 'localhost',
-  port: process.env.REDIS_PORT || 6379,
-  password: process.env.REDIS_PASS || undefined
-})
+const connectionString = process.env.REDIS_CONNECTION_STRING
+
+const client = new Redis(connectionString);
 
 // Set the rate limit to 20 requests per day
 const rateLimit = parseInt(process.env.RATE_LIMIT, 10)
