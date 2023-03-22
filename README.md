@@ -60,6 +60,7 @@ npm start
 
 ## credits
 - [OpenAI](https://openai.com) for creating [ChatGPT](https://chat.openai.com/chat)
+- [EyuCoder](https://github.com/EyuCoder) for creating [ChatGPT-Clone](https://github.com/EyuCoder/chatgpt-clone)
 
 
 
