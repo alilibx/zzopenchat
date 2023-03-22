@@ -1,6 +1,6 @@
 # ChatGPT clone with DALL.E image generation model
 
-*you can checkout the app [here](https://chatgpt.eyucoder.com/)*
+*you can checkout the app [here](https://chat.zz.sd/)*
 
 > a demo of the App
 <!-- https://user-images.githubusercontent.com/26358650/212903093-08c58f9b-25b5-440d-89e7-7a4b1f36df5a.mp4 -->
