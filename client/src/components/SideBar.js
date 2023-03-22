@@ -44,7 +44,7 @@ const SideBar = () => {
           <span className='w-8 h-8'><img src={bot} alt="" /></span>
         </div>
         <h1 className={`sidebar__app-title ${!open && "scale-0 hidden"}`}>
-          ChatGPT
+          ZZ Open Chat
         </h1>
         <div className={`sidebar__btn-close`} onClick={() => setOpen(!open)}>
           {open ? <MdClose className='sidebar__btn-icon' /> : <MdMenu className='sidebar__btn-icon' />}
