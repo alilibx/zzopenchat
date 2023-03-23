@@ -1,5 +1,5 @@
 import React, { useState, useContext, useEffect } from 'react'
-import { MdClose, MdMenu, MdAdd, MdOutlineLogout, MdOutlineQuestionAnswer, MdOutlineCoffee } from 'react-icons/md'
+import { MdClose, MdMenu, MdAdd, MdOutlineLogout, MdOutlineQuestionAnswer } from 'react-icons/md'
 import { ChatContext } from '../context/chatContext'
 import bot from '../assets/bot.ico'
 import DarkMode from './DarkMode'
