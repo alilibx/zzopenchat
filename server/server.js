@@ -5,7 +5,7 @@ import * as dotenv from 'dotenv'
 import Filter from 'bad-words'
 import { rateLimitMiddleware } from './middlewares/rateLimitMiddleware.js'
 
-const allowedOrigins = ['https://chat.zz.sd', 'http://localhost']
+const allowedOrigins = ['https://chat.zz.sd', 'https://gpt.sd', 'http://localhost']
 
 const filter = new Filter()
 

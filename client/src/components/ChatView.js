@@ -14,7 +14,7 @@ const ChatView = () => {
   const [formValue, setFormValue] = useState('')
   const [thinking, setThinking] = useState(false)
   const options = ['ChatGPT', 'DALL·E']
-  const [selected, setSelected] = useState(options[0])
+  const [selected] = useState(options[0])
   const [messages, addMessage, , , setLimit] = useContext(ChatContext)
   const user = auth.currentUser.uid
   const picUrl = auth.currentUser.photoURL || 'https://api.adorable.io/avatars/23/abott@adorable.png'
@@ -129,10 +129,7 @@ const ChatView = () => {
         <span ref={messagesEndRef}></span>
       </main>
       <form className='form' onSubmit={sendMessage}>
-        <select value={selected} onChange={(e) => setSelected(e.target.value)} className="dropdown" >
-          <option>{options[0]}</option>
-          <option>{options[1]}</option>
-        </select>
+
         <div className='flex items-stretch w-full justify-between'>
         <textarea ref={inputRef} className='chatview__textarea-message' value={formValue} 
         onKeyDown={handleKeyDown}
